@@ -2,9 +2,9 @@
 This is my personal DSA learning journey
 
 # Data structure basics
-## Array
-## Recursion
-## Stack
-## Queue
-## Linkedlist
-## Tree
+- Array
+- Recursion
+- Stack
+- Queue
+- Linkedlist
+- Tree
