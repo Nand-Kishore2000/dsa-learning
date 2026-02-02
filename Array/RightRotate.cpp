@@ -2,8 +2,8 @@
 using namespace std;
 /*
    To right shift the array with dth index means, [1,2,3,4,5,6,7]; => [6,7,1,2,3,4,5]
-   means from 0th index to dth index array should be moved to the right side and other side all the elemets
-   from d + 1th index to n-1 index should be moved to left side
+   means from 0th index to (n - d)th index array should be moved to the right side and other side all the elemets
+   from (n - d)th index to n-1 index should be moved to left side
    */
 // Visualize arr into two parts
 // 1st part from  0 to (n - d)th index,   ====  arr1 [1,2,3,4,5];
