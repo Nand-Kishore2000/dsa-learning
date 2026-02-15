@@ -1,6 +1,8 @@
 // Union of Two Sorted Arrays
 //Problem Statement : Given two sorted arrays, arr1, and arr2 of size n and m.Find the union of two sorted arrays.The union of two arrays can be defined as the common and distinct elements in the two arrays.
+
 //NOTE : Elements in the union should be in ascending order.
+
 //for example arr1= [1,2,3,4,5,7,7] , arr2 = [2,3,5,7,7,8,9]  then ans should be [2,3,5,7] bcoz these are present on both array.
 
 #include<bits/stdc++.h>
