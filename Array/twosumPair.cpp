@@ -24,6 +24,24 @@ vector<pair<int, int>> twoPairSum(vector<int> nums, int target)
     return ans;
 }
 
+// BRUTE APPROACH O(N2)
+// vector<pair<int, int>> twoPairSum(vector<int> nums, int target)
+// {
+//     vector<pair<int, int>> ans;
+
+//     for (int i = 0; i < nums.size(); i++)
+//     {
+//         for (int j = i+1; j < nums.size(); j++){   
+//             if (nums[i] + nums[j] == target)
+//             {
+//                 ans.push_back({nums[i], nums[j]});
+//             }
+//         }
+//     }
+    
+//     return ans;
+// }
+
 int main(){
     vector<int> arr = {1, 7, 3, 5, 8, 21, 23, 0};
     int target = 8;
